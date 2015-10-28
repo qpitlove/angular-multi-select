@@ -1076,6 +1076,9 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                             '/>'+
                         // clear button
                         '<button type="button" class="clearButton" ng-click="clearClicked( $event )" >×</button> '+
+
+                        // magnifier icon
+                        '<span class="icons-magnifier"></span>' +
                     '</div> '+
                 '</div> '+
                 // selection items
